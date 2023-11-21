@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shop1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        >
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:src="@drawable/shoplogo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Signin"
+            android:text="Welcome to  shop manager"
+            android:textColor="@color/red"
+            android:textSize="35dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview1"
+        android:text="items available"
+        android:textColor="@color/blue"
+        android:textSize="35dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/apple"
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/cakes" />
+        <CheckBox
+            android:id="@+id/myCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+        <ImageView
+            android:id="@+id/ball2"
+            android:layout_width="134dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/bread" />
+        <CheckBox
+            android:id="@+id/myCheckBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/cat3"
+            android:layout_width="134dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/biscuit" />
+        <CheckBox
+            android:id="@+id/myCheckBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        >
+
+        <TextView
+            android:id="@+id/cake"
+            android:layout_width="54dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:text="cake:sh.80 "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/biscuit"
+            android:layout_width="54dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="bread:sh.20"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bread"
+            android:layout_width="54dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="biscuit:sh.40" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/sugar"
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/sugar" />
+        <CheckBox
+            android:id="@+id/sugar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+        <ImageView
+            android:id="@+id/salt"
+            android:layout_width="134dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/salt" />
+        <CheckBox
+            android:id="@+id/mysalt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/rice"
+            android:layout_width="134dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/rice" />
+        <CheckBox
+            android:id="@+id/myrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        >
+
+        <TextView
+            android:id="@+id/sgar"
+            android:layout_width="54dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:textColor="@color/blue"
+            android:text="sugar:sh.100/kg "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/slt"
+            android:layout_width="54dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:textColor="@color/blue"
+            android:text="salt:sh.20/50gms"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rce"
+            android:layout_width="54dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:text="rice:sh.90/kg" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview3"
+        android:text="add to cart"
+        android:textColor="@color/blue"
+        android:textSize="35dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginbtn"
+        android:layout_below="@id/password"
+        android:text="pay"
+        android:textSize="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="1dp"/>
+</LinearLayout>

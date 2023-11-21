@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shop1">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/shoplogo" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Signin"
+        android:text="Register in to shop manager"
+        android:textColor="@color/blue"
+        android:textSize="35dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullnames"
+        android:layout_below="@id/Signin"
+        android:background="#2fff"
+        android:hint="Enter full names"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/round_manage_accounts_24" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@id/Signin"
+        android:background="#2fff"
+        android:hint="Set username"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_margin="1dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/baseline_how_to_reg_24" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_below="@id/Signin"
+        android:background="#2fff"
+        android:hint="Enter an eligble email"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:autoSizeTextType="none"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/baseline_mark_as_unread_24" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@id/username"
+        android:background="#2fff"
+        android:hint="Set Password"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/baseline_touch_app_24"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/regbtn"
+        android:layout_below="@id/password"
+        android:text="Register"
+        android:textSize="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="1dp"/>
+
+</LinearLayout>
